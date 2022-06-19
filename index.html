@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Assets/grafico.ico" type="image/x-icon">
+    <title>Gráficos Covid-19</title>
+</head>
+<body>
+    <header>
+        <div class="identifier-header">
+            <h1>Gráficos Pandemia Covid-19</h1>
+            <p>Alunos: Filipe Alves e Gabriel Cosmo</p>
+        </div>
+    </header>
+
+    <section class="cards">
+        <div class="card" id="0">
+            <div class="card-image-container">
+                <img src="Assets/coronavirus.png" alt="">
+            </div>
+            <div class="card-title">
+                <p>Gráfico Ranking do Número de Casos de Covid-19 nos Estados do Nordeste</p>
+            </div>
+        </div>
+
+        <div class="card" id="1">
+            <div class="card-image-container">
+                <img src="Assets/vacinado.png" alt="">
+            </div>
+            <div class="card-title">
+                <p>Gráfico Ranking da Vacinação dos Estados do Nordeste na Pandemia da Covid-19</p>
+            </div>
+        </div>
+
+        <div class="card" id="2">
+            <div class="card-image-container">
+                <img src="Assets/news-report.png" alt="">
+            </div>
+            <div class="card-title">
+                <p>Mais informações sobre a Pandemia da Covid-19</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal-overlay1">
+        <div class="modal">
+            <div class="close-modal1">
+                <img src="Assets/close.svg" alt="">
+            </div>
+            <div class="modal-content">
+                <h2>Gráfico Ranking do Número de Casos de Covid-19 nos Estados do Nordeste. Dados obtidos <a href="https://github.com/wcota/covid19br/blob/master/cases-brazil-total.csv" target="_blank">aqui</a>, até o dia 17/06/22.</h2>
+                <svg width="100vw" height="80vh">
+                    <line x1="20px" y1="10px" x2="20" y2="600px" stroke="#000" stroke-width="5"/>
+                    <polygon points="10,10 30,10 20,0" style="fill:#000;stroke:#000;stroke-width:1"/>
+                    <line x1="10px" y1="590px" x2="750" y2="590px" stroke="#000" stroke-width="5"/>
+                    <polygon points="750,580 750,600 760,590" style="fill:#000;stroke:#000;stroke-width:1"/>
+                    <path style="stroke: #00F; stroke-width:3; fill:none" d="M10,600 L100,500 L150, 480 L200, 430 L250, 400 L300, 350 L350, 320 L470, 270 L570, 200, L670, 100"/>
+
+                    <text x="95px" y="610px" fill="#000" style="font-weight: bold;">AL</text>
+                    <text x="145px" y="610px" fill="#000" style="font-weight: bold;">SE</text>
+                    <text x="195px" y="610px" fill="#000" style="font-weight: bold;">PI</text>
+                    <text x="245px" y="610px" fill="#000" style="font-weight: bold;">MA</text>
+                    <text x="295px" y="610px" fill="#000" style="font-weight: bold;">RN</text>
+                    <text x="345px" y="610px" fill="#000" style="font-weight: bold;">PA</text>
+                    <text x="465px" y="610px" fill="#000" style="font-weight: bold;">PE</text>
+                    <text x="565px" y="610px" fill="#000" style="font-weight: bold;">CE</text>
+                    <text x="665px" y="610px" fill="#000" style="font-weight: bold;">BA</text>
+
+                    <line x1="100px" y1="590px" x2="100" y2="500px" stroke="#000" stroke-dasharray="1"/>
+                    <line x1="150px" y1="590px" x2="150" y2="480px" stroke="#000" stroke-dasharray="1"/>
+                    <line x1="200px" y1="590px" x2="200" y2="430px" stroke="#000" stroke-dasharray="1"/>
+                    <line x1="250px" y1="590px" x2="250" y2="400px" stroke="#000" stroke-dasharray="1"/>
+                    <line x1="300px" y1="590px" x2="300" y2="350px" stroke="#000" stroke-dasharray="1"/>
+                    <line x1="350px" y1="590px" x2="350" y2="320px" stroke="#000" stroke-dasharray="1"/>
+                    <line x1="470px" y1="590px" x2="470" y2="270px" stroke="#000" stroke-dasharray="1"/>
+                    <line x1="570px" y1="590px" x2="570" y2="200px" stroke="#000" stroke-dasharray="1"/>
+                    <line x1="670px" y1="590px" x2="670" y2="100px" stroke="#000" stroke-dasharray="1"/>
+
+                    <line x1="20px" y1="503px" x2="100" y2="500px" stroke="#000" stroke-dasharray="1"/>
+                    <line x1="20px" y1="483px" x2="150" y2="480px" stroke="#000" stroke-dasharray="1"/>
+                    <line x1="20px" y1="433px" x2="200" y2="430px" stroke="#000" stroke-dasharray="1"/>
+                    <line x1="20px" y1="403px" x2="250" y2="400px" stroke="#000" stroke-dasharray="1"/>
+                    <line x1="20px" y1="353px" x2="300" y2="350px" stroke="#000" stroke-dasharray="1"/>
+                    <line x1="20px" y1="323px" x2="350" y2="320px" stroke="#000" stroke-dasharray="1"/>
+                    <line x1="20px" y1="273px" x2="470" y2="270px" stroke="#000" stroke-dasharray="1"/>
+                    <line x1="20px" y1="203px" x2="570" y2="200px" stroke="#000" stroke-dasharray="1"/>
+                    <line x1="20px" y1="103px" x2="670" y2="100px" stroke="#000" stroke-dasharray="1"/>
+
+                    <text x="30px" y="500px" fill="#000" style="font-weight: bold;">(300.214)</text>
+                    <text x="30px" y="480px" fill="#000" style="font-weight: bold;">(327.910)</text>
+                    <text x="30px" y="430px" fill="#000" style="font-weight: bold;">(368.302)</text>
+                    <text x="30px" y="400px" fill="#000" style="font-weight: bold;">(440.735)</text>
+                    <text x="30px" y="350px" fill="#000" style="font-weight: bold;">(513.195)</text>
+                    <text x="30px" y="320px" fill="#000" style="font-weight: bold;">(608.956)</text>
+                    <text x="30px" y="270px" fill="#000" style="font-weight: bold;">(950.225)</text>
+                    <text x="30px" y="200px" fill="#000" style="font-weight: bold;">(1.251.306)</text>
+                    <text x="30px" y="100px" fill="#000" style="font-weight: bold;">(1.556.741)</text>
+
+
+
+                    <text x="720px" y="610px" fill="#000" style="font-weight: bold;">Estados</text>
+                    <text x="30px" y="30px" fill="#000" style="font-weight: bold;">Casos</text>
+0
+                </svg>
+            
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-overlay2">
+        <div class="modal">
+            <div class="close-modal2">
+                <img src="Assets/close.svg" alt="">
+            </div>
+            <div class="modal-content">
+                <h2>Gráfico Ranking da Vacinação dos Estados do Nordeste (Primeira e Segunda dose completa) na Pandemia da Covid-19. Dados obtidos <a href="https://especiais.g1.globo.com/bemestar/vacina/2021/mapa-brasil-vacina-covid/" target="_blank">aqui</a>, até o dia 17/06/22.</h2>
+                <svg width="80vw" height="80vh">
+                    <line x1="20px" y1="10px" x2="20" y2="600px" stroke="#000" stroke-width="5"/>
+                    <polygon points="10,10 30,10 20,0" style="fill:#000;stroke:#000;stroke-width:1"/>
+                    <line x1="10px" y1="590px" x2="600" y2="590px" stroke="#000" stroke-width="5"/>
+                    <polygon points="600,580 600,600 610,590" style="fill:#000;stroke:#000;stroke-width:1"/>
+                    
+                    <rect x=50px y=250 width="50px" height="340px" style="fill: #F00; stroke: #000; stroke-width: 2px"/>
+                    <rect x=110px y=240 width="50px" height="350px" style="fill: #F00; stroke: #000; stroke-width: 2px"/>
+                    <rect x=170px y=230 width="50px" height="360px" style="fill: #F00; stroke: #000; stroke-width: 2px"/>
+                    <rect x=230px y=210 width="50px" height="380px" style="fill: #F00; stroke: #000; stroke-width: 2px"/>
+                    <rect x=290px y=200 width="50px" height="390px" style="fill: #F00; stroke: #000; stroke-width: 2px"/>
+                    <rect x=350px y=195 width="50px" height="395px" style="fill: #F00; stroke: #000; stroke-width: 2px"/>
+                    <rect x=410px y=190 width="50px" height="400px" style="fill: #F00; stroke: #000; stroke-width: 2px"/>
+                    <rect x=470px y=160 width="50px" height="430px" style="fill: #F00; stroke: #000; stroke-width: 2px"/>
+                    <rect x=530px y=145 width="50px" height="445px" style="fill: #F00; stroke: #000; stroke-width: 2px"/>
+
+                    <text x="70px" y="610px" fill="#000" style="font-weight: bold;">MA</text>
+                    <text x="125px" y="610px" fill="#000" style="font-weight: bold;">PA</text>
+                    <text x="185px" y="610px" fill="#000" style="font-weight: bold;">AL</text>
+                    <text x="245px" y="610px" fill="#000" style="font-weight: bold;">BA</text>
+                    <text x="305px" y="610px" fill="#000" style="font-weight: bold;">RN</text>
+                    <text x="365px" y="610px" fill="#000" style="font-weight: bold;">PE</text>
+                    <text x="425px" y="610px" fill="#000" style="font-weight: bold;">SE</text>
+                    <text x="490px" y="610px" fill="#000" style="font-weight: bold;">CE</text>
+                    <text x="545px" y="610px" fill="#000" style="font-weight: bold;">PI</text>
+
+                    <line x1="20px" y1="250px" x2="50" y2="250px" stroke="#000" stroke-dasharray="1"/>
+                    <line x1="20px" y1="240px" x2="110" y2="240px" stroke="#000" stroke-dasharray="1"/>
+                    <line x1="20px" y1="230px" x2="170" y2="230px" stroke="#000" stroke-dasharray="1"/>
+                    <line x1="20px" y1="210px" x2="230" y2="210px" stroke="#000" stroke-dasharray="1"/>
+                    <line x1="20px" y1="200px" x2="290" y2="200px" stroke="#000" stroke-dasharray="1"/>
+                    <line x1="20px" y1="195px" x2="350" y2="195px" stroke="#000" stroke-dasharray="1"/>
+                    <line x1="20px" y1="190px" x2="410" y2="190px" stroke="#000" stroke-dasharray="1"/>
+                    <line x1="20px" y1="160px" x2="470" y2="160px" stroke="#000" stroke-dasharray="1"/>
+                    <line x1="20px" y1="145px" x2="530" y2="145px" stroke="#000" stroke-dasharray="1"/>
+
+                    <text x="0px" y="270px" fill="#000" style="font-weight: bold;">60</text>
+                    <text x="0px" y="225px" fill="#000" style="font-weight: bold;">70</text>
+                    <text x="0px" y="180px" fill="#000" style="font-weight: bold;">80</text>
+                    <text x="0px" y="135px" fill="#000" style="font-weight: bold;">90</text>
+
+
+                    <text x="55px" y="500px" fill="#000" style="font-weight: bold;">62,79</text>
+                    <text x="115px" y="500px" fill="#000" style="font-weight: bold;">64,44</text>
+                    <text x="175px" y="500px" fill="#000" style="font-weight: bold;">67,20</text>
+                    <text x="235px" y="500px" fill="#000" style="font-weight: bold;">72,87</text>
+                    <text x="295px" y="500px" fill="#000" style="font-weight: bold;">75,40</text>
+                    <text x="355px" y="500px" fill="#000" style="font-weight: bold;">76,20</text>
+                    <text x="415px" y="500px" fill="#000" style="font-weight: bold;">77,40</text>
+                    <text x="480px" y="500px" fill="#000" style="font-weight: bold;">83,29</text>
+                    <text x="535px" y="500px" fill="#000" style="font-weight: bold;">86,58</text>
+
+                    <text x="600px" y="610px" fill="#000" style="font-weight: bold;">Estados</text>
+                    <text x="30px" y="30px" fill="#000" style="font-weight: bold;">%</text>
+                    
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-overlay3">
+        <div class="modal" id="div-embed">
+            <div class="close-modal3" id="">
+                <img src="Assets/close.svg" alt="">
+            </div>
+            <div >
+                <iframe src="https://www.cnnbrasil.com.br/tudo-sobre/covid-19/" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
