@@ -1,4 +1,4 @@
-###Graficos-CompGrafic
+Graficos Covid usando SVG para trabalho de Computação Gráfica
 
 Neste projeto foi utilizado HTML, CSS e JavaScript para fazer um pequeno layout para o que estava sendo pedido em um trabalho da Universidade
 
